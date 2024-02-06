@@ -26,8 +26,8 @@
     "backlight",
     "keyboard-state",
     "sway/language",
-    "clock",
-    "tray"
+    "tray",
+    "clock"
   ],
   // Modules configuration
   // "sway/workspaces": {
@@ -112,7 +112,7 @@
   },
   "cpu": {
     "format": "{usage}% ",
-    "tooltip": false
+    "tooltip": true
   },
   "memory": {
     "format": "{}% "
@@ -120,7 +120,7 @@
   "temperature": {
     // "thermal-zone": 2,
     // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-    "critical-threshold": 80,
+    "critical-threshold": 60,
     // "format-critical": "{temperatureC}°C {icon}",
     "format": "{temperatureC}°C {icon}",
     "format-icons": [
