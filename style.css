@@ -308,3 +308,10 @@ label:focus {
   background-color: #1DB954;
   color: black;
 }
+
+#custom-notification {
+  padding: 0 8px;
+  margin: 0 4px;
+  background-color: #9172ED;
+  color: black;
+}
